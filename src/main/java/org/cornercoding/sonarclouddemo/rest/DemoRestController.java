@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoRestController {
 	
 	@RequestMapping(value="/api/v1,0/capitalize")
-	public ResponseEntity<String> capitalize(@RequestParam("test") String text)
-		
+	public ResponseEntity<String> capitalize(@RequestParam("test") String text) {
+		sdasdsadasdasa
 		String capital = text.toUpperCase();
 		return ResponseEntity.ok(capital);
 		
